@@ -1,4 +1,4 @@
-package com.example.wcexample;
+﻿package com.example.wcexample;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                             Elements elements = document.select("span.ah_k");
                             int i = 1;
                             for (Element e : elements) {
-                                Log.d("검색어", e.text());
+                                Log.d("검색어 승현씨 안녕??", e.text());
                                 array.add(e.text());
                                 if (i == 10) {
                                     break;
